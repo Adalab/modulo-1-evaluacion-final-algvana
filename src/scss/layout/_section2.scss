@@ -1,0 +1,97 @@
+.section2{
+    background-color: $light-grey;
+    text-align:center;
+    padding:3rem 1.5rem 3rem 1.5rem;
+    @media (min-width:1200px){
+        padding:3rem 10rem 3rem 10rem;
+    }
+    &__title{
+        font-family:$font-family;
+        &--span{
+            color: $greyish-brown;
+        }
+        &--h2{
+            text-transform:uppercase;
+        }
+    }
+    &__items{
+        @media (min-width:768px){
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom:20px;
+        }
+        &--item1{
+            margin: 1rem 0rem 1rem 0rem;
+            &--img{
+            width:50%;
+            border-radius:50%;
+            box-shadow:5px 5px 5px lightgray;
+            @media (min-width:1200px){
+                width:35%;
+            }
+            }
+            &--p{
+            font-family:$font-family;
+            }}   
+        &--item2{
+            margin: 1rem 0rem 1rem 0rem;
+            &--img{
+            width:50%;
+            border-radius:50%;
+            box-shadow:5px 5px 5px lightgray;
+            @media (min-width:1200px){
+                width:35%;
+            }
+            }
+            &--p{
+            font-family:$font-family;
+            }} 
+        &--item3{
+            margin: 1rem 0rem 1rem 0rem;
+            &--img{
+            width:50%;
+            border-radius:50%;
+            box-shadow:5px 5px 5px lightgray;
+            @media (min-width:1200px){
+                width:35%;
+            }
+            }
+            &--p{
+            font-family:$font-family;
+            }} 
+    }
+
+    &__button{
+        text-decoration:none;
+        color:$white;
+        background-color: $moss-green;
+        border-radius: 22.5px;
+        padding: 10px 20px 10px 20px;
+        text-align:center;
+        border: solid 2px $moss-green;
+        width:50%;
+        font-family: $font-main;
+        font-size: 1.5em;
+        margin-top: 30px;
+
+    }
+    &__arrow{
+        background-color:white;
+        border-radius:50%;
+        display:flex;
+        justify-content:center;
+        padding:15px;
+        transform: translateX(280%) translateY(140%);
+        width:15%;
+        @media (min-width:768px) and (max-width:1200px){
+            width:8%;
+            transform: translateX(570%)
+            translateY(140%);
+        }
+        @media (min-width:1200px){
+            width:6%;
+            transform: translateX(790%)
+            translateY(140%);
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    justify-content:flex-end;
+    background-image: url(../images/cover.jpeg);
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: cover;
+    padding: 0rem 2rem;
+    &__h1{
+        color: $white;
+        font-size: 2.2em;
+        text-transform: uppercase;
+        font-family: $font-family;
+        margin-top: 12rem;
+        line-height: 1.7em;
+        @media (min-width:768px){
+            font-size: 5em;
+            line-height:1.3em;
+        }
+    }
+    &__p{
+        color: $white;
+        font-family: $font-main;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.2em;
+        font-weight: normal;
+        @media (min-width:768px){
+            font-size: 1.5em;
+            line-height:1.3em;
+        }
+    }
+    &__icon{
+        background-color: $white;
+        border-radius: 60%;
+        padding: 15px;
+        margin-bottom: 50px;
+        display:flex;
+        align-items:center;
+        @media (min-width:768px){
+            margin-bottom:20px;
+        }
+}
+}
