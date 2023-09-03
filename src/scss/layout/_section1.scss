@@ -47,3 +47,10 @@
         
     }
 }
+
+//animation//
+
+.section1__button:hover{
+    transform:scale(120%);
+    transition-delay: 1s;
+}

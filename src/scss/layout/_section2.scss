@@ -95,3 +95,22 @@
         }
     }
 }
+
+//animation//
+
+.section2__arrow{
+    animation-name: button;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes button {
+    0%   {background-color: white;}
+    25%  {background-color: yellow;}
+    50%  {background-color: orange;}
+    100% {background-color: pink;}
+}
+
+.section2__button:hover{
+    background-color:orange;
+}
