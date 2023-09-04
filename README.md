@@ -1,5 +1,5 @@
 
-# Landing page 
+# Landing page - evaluación final 
 
 Este README proporciona una descripción general de la Landing Page que he desarrollado. 
 
@@ -16,13 +16,13 @@ Esta Landing Page se trata de un ejercicio de evaluación final durante el módu
 ## Instalación
 
 1. Clona el repositorio o accede al enlace que se encuentra en la esquina superior derecha.
-2. Si dedicdes clonar el repositorio, abre la terminal dentro de VisualStudioCode y escribe npm install para instalar las dependencias.
+2. Si deciddes clonar el repositorio, abre la terminal dentro de VisualStudioCode y escribe npm install para instalar las dependencias.
 3. Después, escribe npm start y se ejecutará el proyecto.
 
     
 ## Contribución
 
-Crear un pull request con tus cambios o sugerencias, si quiere contribuir! Estaré encantada de que participes.
+Crea un pull request con tus cambios o sugerencias, si quieres contribuir! Estaré encantada de que participes.
 
 
 ## Autor
